@@ -1,0 +1,5 @@
+1. Goto https://github.com/docker/compose/releases and copy the release number for the latest stable version of Docker Compose.
+2. Install Docker Compose: sudo curl -L https://github.com/docker/compose/releases/download/[Enter the release number from above here]/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+3. Apply executable permissions to the binary: sudo chmod +x /usr/local/bin/docker-compose
+4. Test the installation: docker-compose --version
+5.
